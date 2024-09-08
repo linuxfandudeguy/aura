@@ -1,0 +1,12 @@
+{
+  "name": "aura-css",
+  "version": "1.0.0",
+  "description": "AuraCSS framework",
+  "scripts": {
+    "build": "sass src/scss/main.scss:dist/css/aura.css",
+    "build:prod": "sass src/scss/main.scss:dist/css/aura.min.css --style=compressed"
+  },
+  "dependencies": {
+    "sass": "*"  
+  }
+}

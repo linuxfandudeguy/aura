@@ -1,0 +1,102 @@
+// Define your variables here
+$spacing-unit: 16px;
+$width-full: 100%;
+$max-width-screen-md: 768px;
+
+// Flexbox Utilities
+.flex { 
+    display: flex; 
+}
+.flex-wrap { 
+    flex-wrap: wrap; 
+}
+.items-center { 
+    align-items: center; 
+}
+.justify-center { 
+    justify-content: center; 
+}
+
+// Spacing Utilities
+.m-0 { 
+    margin: 0; 
+}
+.mt-4 { 
+    margin-top: $spacing-unit; 
+}
+.mb-4 { 
+    margin-bottom: $spacing-unit; 
+}
+.pt-4 { 
+    padding-top: $spacing-unit; 
+}
+.pb-4 { 
+    padding-bottom: $spacing-unit; 
+}
+
+// Width Utilities
+.w-full { 
+    width: $width-full; 
+}
+.max-w-screen-md { 
+    max-width: $max-width-screen-md; 
+}
+
+// Font size and line-height definitions for typography
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Typography Utilities
+.text-base { 
+    font-size: $font-size-base; 
+    line-height: $line-height-base; 
+}
+.text-lg { 
+    font-size: $font-size-base * 1.125; 
+    line-height: $line-height-base; 
+}
+.text-sm { 
+    font-size: $font-size-base * 0.875; 
+    line-height: $line-height-base; 
+}
+.text-xl { 
+    font-size: $font-size-base * 1.25; 
+    line-height: $line-height-base; 
+}
+.text-2xl { 
+    font-size: $font-size-base * 1.5; 
+    line-height: $line-height-base; 
+}
+.text-3xl { 
+    font-size: $font-size-base * 1.875; 
+    line-height: $line-height-base; 
+}
+.text-4xl { 
+    font-size: $font-size-base * 2.25; 
+    line-height: $line-height-base; 
+}
+.text-gray-700 { 
+    color: #4a4a4a; 
+}
+
+// Font weight
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+
+.font-bold { 
+    font-weight: $font-weight-bold; 
+}
+.font-normal { 
+    font-weight: $font-weight-normal; 
+}
+
+// Text alignment
+.text-center { 
+    text-align: center; 
+}
+.text-left { 
+    text-align: left; 
+}
+.text-right { 
+    text-align: right; 
+}

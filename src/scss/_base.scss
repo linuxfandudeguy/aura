@@ -1,0 +1,23 @@
+@import "../css/modern-normalize.css";
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: -color;
+  background-color: -color;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: -color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

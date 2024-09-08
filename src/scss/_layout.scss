@@ -1,0 +1,21 @@
+// Grid system
+$grid-columns: 12; // Corrected variable name
+$grid-gutter: $spacing-unit; // Ensure $spacing-unit is defined in _variables.scss
+
+.container {
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$grid-gutter;
+  margin-right: -$grid-gutter;
+}
+
+.col {
+  flex: 1;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
+}

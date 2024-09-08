@@ -1,0 +1,21 @@
+// Define mixins for reusability
+
+// Border radius
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+// Flexbox center
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Responsive font size
+@mixin responsive-font($min-font-size, $max-font-size, $min-width, $max-width) {
+  font-size: $min-font-size;
+  @media (min-width: $min-width) {
+    font-size: $max-font-size;
+  }
+}

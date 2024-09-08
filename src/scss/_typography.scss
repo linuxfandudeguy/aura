@@ -1,0 +1,18 @@
+// Typography
+.text-base { font-size: $font-size-base; line-height: $line-height-base; }
+.text-lg { font-size: $font-size-lg; line-height: $line-height-base; }
+.text-sm { font-size: $font-size-sm; line-height: $line-height-base; }
+.text-xl { font-size: $font-size-base * 1.25; line-height: $line-height-base; }
+.text-2xl { font-size: $font-size-base * 1.5; line-height: $line-height-base; }
+.text-3xl { font-size: $font-size-base * 1.875; line-height: $line-height-base; }
+.text-4xl { font-size: $font-size-base * 2.25; line-height: $line-height-base; }
+.text-gray-700 { color: #4a4a4a; }
+
+// Font weight
+.font-bold { font-weight: $font-weight-bold; }
+.font-normal { font-weight: $font-weight-normal; }
+
+// Text alignment
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }

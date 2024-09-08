@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraCSS Full Demo</title>
+    <link rel="stylesheet" href="aura.css">
+    <style>
+        /* Inline styling for layout and visibility */
+        body {
+            
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -16px;
+        }
+        .col {
+            flex: 1;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-4xl font-bold mb-6">AuraCSS Full Demo</h1>
+
+        <!-- Typography Examples -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Typography</h2>
+            <p class="text-lg mb-4">This is a paragraph demonstrating base text size and spacing.</p>
+            <p class="text-sm mb-4">This is a smaller text example.</p>
+            <p class="text-xl mb-4">This is an extra-large text example.</p>
+            <p class="text-base mb-4">This is the default base text size.</p>
+            <p class="text-gray-700">This text has a gray color.</p>
+        </section>
+
+        <!-- Button Examples -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Buttons</h2>
+            <button class="button btn-primary mb-4">Primary Button</button>
+            <button class="button btn-secondary mb-4">Secondary Button</button>
+            <button class="button btn-accent mb-4">Accent Button</button>
+            <button class="button btn-outline mb-4">Outline Button</button>
+            <button class="button btn-text mb-4">Text Button</button>
+        </section>
+
+        <!-- Card Component Example -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Card Component</h2>
+            <div class="card">
+                <h3 class="text-2xl font-bold mb-2">Card Title</h3>
+                <p class="text-base">This is a card component. It contains a title and some content inside a styled container with padding, border, and shadow.</p>
+            </div>
+        </section>
+
+        <!-- Grid Layout Example -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Grid Layout</h2>
+            <div class="row">
+                <div class="col" style="background-color: #ddd;">Column 1</div>
+                <div class="col" style="background-color: #bbb;">Column 2</div>
+                <div class="col" style="background-color: #aaa;">Column 3</div>
+            </div>
+        </section>
+
+        <!-- Responsive Design Example -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Responsive Design</h2>
+            <p class="mb-4">Resize the window to see the responsive grid and layout adjustments.</p>
+            <div class="row">
+                <div class="col" style="background-color: #f8f9fa;">Responsive Column 1</div>
+                <div class="col" style="background-color: #e9ecef;">Responsive Column 2</div>
+                <div class="col" style="background-color: #dee2e6;">Responsive Column 3</div>
+            </div>
+        </section>
+
+        <!-- Utility Classes Example -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Utility Classes</h2>
+            <div class="mb-4 p-4 bg-gray-100">
+                <p class="text-gray-700 mb-4">This is an example of using utility classes for background color and text color.</p>
+                <p class="text-center">Center-aligned text with padding and margin utilities.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
